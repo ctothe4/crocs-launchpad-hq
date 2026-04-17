@@ -3,7 +3,7 @@ import Reveal from "@/components/Reveal";
 const points = [
   { stat: "$1,000", title: "Per Term", sub: "All grades, all phases" },
   { stat: "Gr 1–12", title: "Full School", sub: "Foundation through A-levels" },
-  { stat: "Pathway-Ready", title: "Every Graduate", sub: "Leaves with the skills and the mindset needed to fully take on the world" },
+  { stat: "Pathway-Ready", title: "Every Graduate", sub: "Leaves with the skills and the mindset needed to fully  take on the world" },
 ];
 
 const ProofPoints = () => {
