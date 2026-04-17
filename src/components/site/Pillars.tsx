@@ -11,7 +11,7 @@ const pillars = [
   },
   {
     title: "Global Pathways",
-    body: "University scholarships. Football academies. Documented pipelines to Africa, Europe, and beyond.",
+    body: "University scholarships. Football academies. Documented pipelines to Europe, and beyond.",
   },
 ];
 
