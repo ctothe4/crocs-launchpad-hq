@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="container relative z-10 pt-28 pb-20">
         <div className="max-w-3xl">
           <span className="inline-block bg-gold text-forest font-display font-extrabold uppercase tracking-spaced text-[11px] sm:text-xs px-3 py-1.5 mb-8" style={{ borderRadius: 2 }}>
-            Admissions Open · 2026 Intake
+            Admissions Open · 2027 Intake
           </span>
 
           <h1 className="font-display font-extrabold uppercase text-white leading-[0.95] text-5xl sm:text-6xl md:text-7xl lg:text-[88px]">
@@ -43,7 +43,7 @@ const Hero = () => {
               className="bg-gold text-forest font-display font-extrabold uppercase tracking-spaced px-8 py-4 text-base sm:text-lg hover:bg-gold/90 transition-colors"
               style={{ borderRadius: 2 }}
             >
-              Apply for the Waitlist
+              Join the Waitlist
             </button>
             <p className="mt-4 text-white/55 text-sm font-body">
               Limited places available. Inaugural cohort only.

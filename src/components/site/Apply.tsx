@@ -84,7 +84,7 @@ const Apply = () => {
                   className="bg-gold text-forest font-display font-extrabold uppercase tracking-spaced px-7 py-4 text-base hover:bg-gold/90 transition-colors disabled:opacity-60"
                   style={{ borderRadius: 2 }}
                 >
-                  {submitting ? "Sending…" : "Apply Now"}
+                  {submitting ? "Sending…" : "JOIN THE WAITLIST NOW"}
                 </button>
               </form>
             )}
