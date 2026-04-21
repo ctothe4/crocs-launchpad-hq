@@ -34,7 +34,7 @@ const Hero = () => {
           </h1>
 
           <p className="mt-7 text-white/85 font-body text-lg sm:text-xl max-w-xl leading-relaxed">
-            Academic excellence and elite football development — one and the same. Launching Lusaka, 2026.
+            Academic excellence and elite football development — one and the same. Launching Lusaka, 2027.
           </p>
 
           <div className="mt-10">
