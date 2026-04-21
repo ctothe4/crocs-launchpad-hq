@@ -4,6 +4,7 @@ import Hero from "@/components/site/Hero";
 import ProofPoints from "@/components/site/ProofPoints";
 import Quote from "@/components/site/Quote";
 import Pillars from "@/components/site/Pillars";
+import Reserve from "@/components/site/Reserve";
 import Apply from "@/components/site/Apply";
 import Footer from "@/components/site/Footer";
 
@@ -37,6 +38,7 @@ const Index = () => {
       <ProofPoints />
       <Quote />
       <Pillars />
+      <Reserve />
       <Apply />
       <Footer />
     </main>
