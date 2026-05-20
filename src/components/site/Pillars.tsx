@@ -7,7 +7,7 @@ const pillars = [
   },
   {
     title: "Elite Coaching",
-    body: "Professional staff. UEFA-informed methodology. Daily structured training.",
+    body: "Professional staff. UEFA-informed methodology. Comprehensive, regimented, and professionally structured training.",
   },
   {
     title: "Global Pathways",
