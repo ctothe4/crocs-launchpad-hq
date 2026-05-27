@@ -2,7 +2,7 @@ import Reveal from "@/components/Reveal";
 
 const points = [
   { stat: "$1,000", title: "Per Term", sub: "All grades, all phases" },
-  { stat: "Gr 1–12", title: "Full School", sub: "Foundation through A-levels" },
+  { stat: "Grades 1–6", title: "Form 1–4", sub: "A-Levels" },
   { stat: "Pathway-Ready", title: "Every Graduate", sub: "Leaves with the skills and the mindset needed to fully  take on the world" },
 ];
 
