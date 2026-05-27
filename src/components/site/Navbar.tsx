@@ -1,4 +1,4 @@
-import crest from "@/assets/crocs-crest.jpg";
+import crest from "@/assets/crocs-crest.png";
 
 const scrollTo = (id: string) => {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });

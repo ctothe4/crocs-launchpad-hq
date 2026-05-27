@@ -1,4 +1,4 @@
-import crest from "@/assets/crocs-crest.jpg";
+import crest from "@/assets/crocs-crest.png";
 
 const Footer = () => {
   return (
