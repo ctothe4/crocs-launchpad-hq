@@ -11,27 +11,29 @@ const Reserve = () => {
         <div className="max-w-3xl mx-auto text-center">
           <Reveal>
             <div className="text-gold font-display font-extrabold uppercase tracking-spaced text-xs sm:text-sm">
-              Secure Your Place
+              Secure Your Child's Place
             </div>
           </Reveal>
 
           <Reveal delay={80}>
             <h2 className="mt-6 font-display font-extrabold uppercase text-white leading-[0.95] text-4xl sm:text-5xl md:text-6xl tracking-tight">
-              Your Child's Spot Is Not Guaranteed.
+              Let Them Be Part Of The Founding Class.
             </h2>
           </Reveal>
 
           <Reveal delay={160}>
             <p className="mt-7 text-white/85 font-body text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-              The inaugural cohort is limited. A non-refundable $100 Registration Fee reserves your child's assessment slot and confirms your place in the process.
+              The inaugural cohort is limited and filling fast. A $100 Registration Fee reserves your child's assessment slot and locks in your place among Crocs Academy's first-ever students.
             </p>
           </Reveal>
 
           <Reveal delay={220}>
             <div className="mt-10 text-gold font-display font-extrabold uppercase tracking-spaced text-[11px] sm:text-xs flex flex-wrap items-center justify-center gap-x-3 gap-y-2">
-              <span>Non-Refundable</span>
+              <span>Founding Classes</span>
               <span aria-hidden="true" className="text-gold/60">·</span>
               <span>Assessment Slot Confirmed</span>
+              <span aria-hidden="true" className="text-gold/60">·</span>
+              <span>Priority Consideration For Enrollment</span>
               <span aria-hidden="true" className="text-gold/60">·</span>
               <span>Limited Places Available</span>
             </div>
@@ -51,7 +53,7 @@ const Reserve = () => {
 
           <Reveal delay={360}>
             <p className="mt-6 text-white/45 font-body text-xs sm:text-sm max-w-xl mx-auto leading-relaxed">
-              Registration fee is non-refundable and secures your child's assessment appointment. Full term fees apply upon enrolment.
+              $100 Registration fee secures your child's assessment appointment. Full term fees apply upon enrolment.
             </p>
           </Reveal>
         </div>
