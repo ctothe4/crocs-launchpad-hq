@@ -1,23 +1,16 @@
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { Btn } from "@/components/ca/ui";
+import { useSeo } from "@/hooks/useSeo";
 
 const NotFound = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    console.error("404 Error: User attempted to access non-existent route:", location.pathname);
-  }, [location.pathname]);
-
+  useSeo("Page not found", "This page could not be found.");
   return (
-    <div className="flex min-h-screen items-center justify-center bg-muted">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">404</h1>
-        <p className="mb-4 text-xl text-muted-foreground">Oops! Page not found</p>
-        <a href="/" className="text-primary underline hover:text-primary/90">
-          Return to Home
-        </a>
+    <section className="bg-forest text-ivory min-h-[80vh] flex items-center">
+      <div className="container pt-32 pb-20">
+        <div className="label-caps text-gold">404</div>
+        <h1 className="mt-6 font-serif font-light text-5xl md:text-7xl">This page could not be found.</h1>
+        <div className="mt-10"><Btn to="/">Return Home</Btn></div>
       </div>
-    </div>
+    </section>
   );
 };
 
