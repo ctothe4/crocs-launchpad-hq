@@ -16,7 +16,7 @@ import mentor from "@/assets/photo/mentor.jpg";
 const worlds = [
   { title: "Scholars", line: ["Curious minds.", "Strong foundations."], img: scholars, to: "/learning", alt: "A student concentrating while writing" },
   { title: "Athletes", line: ["Discipline, teamwork", "and healthy competition."], img: athletes, to: "/sport-life", alt: "Students competing for the ball on a pitch" },
-  { title: "Leaders", line: ["Character in action,", "on campus and beyond."], img: leaders, to: "/character-leadership", alt: "A teacher in discussion with two students" },
+  { title: "Leaders", line: ["Character in action,", "on campus and beyond."], img: leaders, to: "/character-leadership", alt: "A senior student addressing younger students on a campus terrace" },
 ];
 
 const standard = [
