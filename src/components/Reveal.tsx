@@ -3,12 +3,11 @@ import { useEffect, useRef, ReactNode } from "react";
 interface RevealProps {
   children: ReactNode;
   className?: string;
-  as?: keyof JSX.IntrinsicElements;
   delay?: number;
 }
 
-const Reveal = ({ children, className = "", as: Tag = "div", delay = 0 }: RevealProps) => {
-  const ref = useRef<HTMLElement | null>(null);
+const Reveal = ({ children, className = "", delay = 0 }: RevealProps) => {
+  const ref = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const el = ref.current;
@@ -22,17 +21,16 @@ const Reveal = ({ children, className = "", as: Tag = "div", delay = 0 }: Reveal
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.12 }
     );
     obs.observe(el);
     return () => obs.disconnect();
   }, [delay]);
 
   return (
-    // @ts-expect-error generic tag
-    <Tag ref={ref} className={`reveal ${className}`}>
+    <div ref={ref} className={`reveal ${className}`}>
       {children}
-    </Tag>
+    </div>
   );
 };
 

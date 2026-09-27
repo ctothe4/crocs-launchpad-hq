@@ -2,15 +2,13 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: ["./src/**/*.{ts,tsx}"],
   prefix: "",
   theme: {
     container: {
       center: true,
-      padding: "1.5rem",
-      screens: {
-        "2xl": "1320px",
-      },
+      padding: { DEFAULT: "1.25rem", md: "2.5rem", lg: "3.5rem" },
+      screens: { "2xl": "1440px" },
     },
     extend: {
       colors: {
@@ -19,57 +17,34 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        forest: "hsl(var(--forest))",
-        bright: "hsl(var(--bright))",
+        forest: { DEFAULT: "hsl(var(--forest))", deep: "hsl(var(--forest-deep))" },
         gold: "hsl(var(--gold))",
-        offwhite: "hsl(var(--offwhite))",
-        ink: "hsl(var(--ink))",
-        "ink-deep": "hsl(var(--ink-deep))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
+        ivory: "hsl(var(--ivory))",
+        croc: "hsl(var(--croc))",
+        antique: "hsl(var(--antique))",
+        parchment: "hsl(var(--parchment))",
+        beige: "hsl(var(--beige))",
+        khaki: "hsl(var(--khaki))",
+        primary: { DEFAULT: "hsl(var(--primary))", foreground: "hsl(var(--primary-foreground))" },
+        secondary: { DEFAULT: "hsl(var(--secondary))", foreground: "hsl(var(--secondary-foreground))" },
+        destructive: { DEFAULT: "hsl(var(--destructive))", foreground: "hsl(var(--destructive-foreground))" },
+        muted: { DEFAULT: "hsl(var(--muted))", foreground: "hsl(var(--muted-foreground))" },
+        accent: { DEFAULT: "hsl(var(--accent))", foreground: "hsl(var(--accent-foreground))" },
+        popover: { DEFAULT: "hsl(var(--popover))", foreground: "hsl(var(--popover-foreground))" },
+        card: { DEFAULT: "hsl(var(--card))", foreground: "hsl(var(--card-foreground))" },
       },
-      borderRadius: {
-        lg: "2px",
-        md: "2px",
-        sm: "1px",
-      },
+      borderRadius: { lg: "0px", md: "0px", sm: "0px" },
       fontFamily: {
-        display: ["'Barlow Condensed'", "sans-serif"],
-        body: ["'Barlow'", "sans-serif"],
+        serif: ["'Noto Serif Display'", "Georgia", "serif"],
+        sans: ["'Noto Sans'", "system-ui", "sans-serif"],
       },
       keyframes: {
         "accordion-down": { from: { height: "0" }, to: { height: "var(--radix-accordion-content-height)" } },
         "accordion-up": { from: { height: "var(--radix-accordion-content-height)" }, to: { height: "0" } },
       },
       animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
+        "accordion-down": "accordion-down 0.3s ease-out",
+        "accordion-up": "accordion-up 0.3s ease-out",
       },
     },
   },
