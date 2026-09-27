@@ -11,11 +11,12 @@ import athletes from "@/assets/photo/athletes.jpg";
 import leaders from "@/assets/photo/leaders.jpg";
 import learning from "@/assets/photo/learning.jpg";
 import visit from "@/assets/photo/visit.jpg";
+import mentor from "@/assets/photo/mentor.jpg";
 
 const worlds = [
   { title: "Scholars", line: ["Curious minds.", "Strong foundations."], img: scholars, to: "/learning", alt: "A student concentrating while writing" },
   { title: "Athletes", line: ["Discipline, teamwork", "and healthy competition."], img: athletes, to: "/sport-life", alt: "Students competing for the ball on a pitch" },
-  { title: "Leaders", line: ["Character in action,", "on campus and beyond."], img: leaders, to: "/character-leadership", alt: "A teacher in discussion with two students" },
+  { title: "Leaders", line: ["Character in action,", "on campus and beyond."], img: leaders, to: "/character-leadership", alt: "A senior student addressing younger students on a campus terrace" },
 ];
 
 const standard = [
@@ -79,7 +80,7 @@ const Home = () => {
             <Reveal delay={300}><div className="mt-10"><TextLink to="/the-academy">Discover the Academy</TextLink></div></Reveal>
           </div>
           <div className="lg:col-span-5 lg:col-start-8">
-            <CinematicImage src={leaders} alt="A teacher mentoring students outdoors" className="aspect-[4/5]" />
+            <CinematicImage src={mentor} alt="A teacher mentoring two students at a study table" className="aspect-[4/5]" />
           </div>
         </div>
       </section>
@@ -179,7 +180,7 @@ const Home = () => {
       <section className="bg-parchment">
         <div className="container py-28 md:py-40 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-4">
-            <CinematicImage src={scholars} alt="A student writing in a notebook" className="aspect-[3/4]" />
+            <CinematicImage src={leaders} alt="A senior student speaking to younger students on a campus terrace" className="aspect-[3/4]" />
           </div>
           <div className="lg:col-span-6 lg:col-start-6">
             <Reveal><SectionLabel tone="forest">Character</SectionLabel></Reveal>
