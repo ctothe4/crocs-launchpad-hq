@@ -1,13 +1,7 @@
-import crest from "@/assets/brand/crest.png.asset.json";
-import primaryLogo from "@/assets/brand/primary-logo.png.asset.json";
-import reverseLogo from "@/assets/brand/reverse-logo.png.asset.json";
-import wordmark from "@/assets/brand/wordmark.png.asset.json";
+import crest from "@/assets/brand/official-crest.png.asset.json";
 
 export const brand = {
   crest: crest.url,
-  primaryLogo: primaryLogo.url,
-  reverseLogo: reverseLogo.url,
-  wordmark: wordmark.url,
 };
 
 export const primaryNav = [

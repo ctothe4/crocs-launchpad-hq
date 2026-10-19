@@ -9,7 +9,7 @@ const Footer = () => (
     <div className="container pt-20 pb-10">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
         <div className="md:col-span-4">
-          <img src={brand.reverseLogo} alt="Crocs Academy — Lusaka, Zambia" loading="lazy" className="h-44 w-auto" />
+          <img src={brand.crest} alt="Crocs Academy — Lusaka, Zambia" loading="lazy" className="h-44 w-auto" />
           <p className="mt-8 font-serif text-2xl text-ivory/90">Knowledge. Character. Excellence.</p>
           <p className="mt-3 text-ivory/55 text-sm">Lusaka, Zambia · Est. 2027</p>
         </div>
