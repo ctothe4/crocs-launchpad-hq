@@ -257,7 +257,7 @@ const Home = () => {
       {/* 12 CLOSING */}
       <section className="bg-forest text-ivory min-h-[100svh] flex items-center">
         <div className="container py-32 text-center">
-          <Reveal><img src={brand.crest} alt="Crocs Academy crest" loading="lazy" className="h-28 md:h-32 w-auto mx-auto" /></Reveal>
+          <Reveal><img src={brand.crest} alt="Crocs Academy Official Crest" loading="lazy" className="h-28 md:h-32 w-auto mx-auto" /></Reveal>
           <Reveal delay={150}>
             <p className="mt-14 font-serif font-light text-5xl md:text-7xl lg:text-8xl leading-[1.05]">Knowledge.<br />Character.<br /><span className="italic text-gold">Excellence.</span></p>
           </Reveal>

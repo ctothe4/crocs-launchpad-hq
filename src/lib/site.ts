@@ -1,7 +1,6 @@
-import crest from "@/assets/brand/official-crest.png.asset.json";
 
 export const brand = {
-  crest: crest.url,
+  crest: "/brand/crocs-academy-crest.png",
 };
 
 export const primaryNav = [

@@ -22,7 +22,7 @@ const FoundingClass = () => {
         <img src={hero} alt="" aria-hidden className="absolute inset-0 h-full w-full object-cover opacity-30" />
         <div className="absolute inset-0 bg-gradient-to-b from-forest/70 via-forest/85 to-forest" />
         <div className="container relative pt-36 pb-24 text-center">
-          <Reveal><img src={brand.crest} alt="Crocs Academy crest" className="h-24 w-auto mx-auto" /></Reveal>
+          <Reveal><img src={brand.crest} alt="Crocs Academy Official Crest" className="h-24 w-auto mx-auto" /></Reveal>
           <h1 className="mt-12 font-serif font-light leading-[0.95]">
             <span className="block hero-word label-caps text-gold !text-sm md:!text-base tracking-[0.4em]" style={{ animationDelay: "200ms" }}>Founding Class</span>
             <span className="block hero-word text-[28vw] md:text-[220px] lg:text-[260px] mt-4" style={{ animationDelay: "500ms" }}>2027</span>

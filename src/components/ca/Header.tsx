@@ -29,7 +29,7 @@ const Header = () => {
       <header className={cn("fixed inset-x-0 top-0 z-50 transition-all duration-500", scrolled || open ? "bg-forest/95 backdrop-blur-sm border-b border-gold/15" : "bg-transparent")}>
         <div className={cn("container flex items-center justify-between transition-all duration-500", scrolled ? "h-[72px]" : "h-[92px]")}>
           <Link to="/" aria-label="Crocs Academy — home" className="flex items-center gap-4 shrink-0">
-            <img src={brand.crest} alt="Crocs Academy crest" className={cn("w-auto transition-all duration-500", scrolled ? "h-11" : "h-14")} />
+            <img src={brand.crest} alt="Crocs Academy Official Crest" className={cn("w-auto transition-all duration-500", scrolled ? "h-12 md:h-16" : "h-14 md:h-[72px]")} />
             <span className="hidden sm:block xl:hidden 2xl:block border-l border-gold/40 pl-4 leading-tight">
               <span className="block label-caps text-ivory text-[11px]">Crocs Academy</span>
               <span className="block label-caps text-gold/80 text-[9px] mt-1">Lusaka · Est. 2027</span>
