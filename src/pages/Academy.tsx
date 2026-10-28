@@ -44,7 +44,7 @@ const Academy = () => {
           <div className="lg:col-span-5 lg:sticky lg:top-32 self-start">
             <Reveal><SectionLabel tone="forest">The Crest</SectionLabel></Reveal>
             <Reveal delay={100}><h2 className="mt-8 font-serif font-light text-forest text-5xl md:text-6xl leading-[1.05]">Every element carries meaning.</h2></Reveal>
-            <Reveal delay={200}><img src={brand.crest} alt="The Crocs Academy crest" loading="lazy" className="mt-12 w-full max-w-sm" /></Reveal>
+            <Reveal delay={200}><img src={brand.crest} alt="Crocs Academy Official Crest" loading="lazy" className="mt-12 w-full max-w-sm" /></Reveal>
           </div>
           <div className="lg:col-span-6 lg:col-start-7 space-y-2">
             {symbols.map(([t, l], i) => (
